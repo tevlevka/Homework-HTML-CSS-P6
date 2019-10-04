@@ -1,0 +1,153 @@
+html {
+    box-sizing: border-box;
+    }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    }
+    div {
+        display: block;
+    }
+
+.logo {
+    float: left;
+    height: 50px;
+}   
+ nav {
+    width: 100%;
+    text-align: center;
+}
+       
+       
+ nav a {
+     color: #656565;
+     display: inline-block;
+     padding: 15px 20px;
+     text-decoration: none;
+     font-weight: 500;
+    }
+
+nav a:hover {
+        text-decoration: none;
+        border-bottom: #ffdb80 solid 6px;
+    
+        }
+nav input[type=text] {
+     float: right;
+     padding: 5px 30px;
+     border: none;
+     margin-top: 12px;
+     font-size: 17px;
+     background: lightgrey;
+     border-radius: 60px;
+}
+ .active {
+     border-bottom: #FFB901 solid 6px;
+        }
+
+    
+.box {
+     background-image: url("https://dak95nwic4sny.cloudfront.net/73/santorini-44228168-1550653710-ImageGalleryLightboxLarge.jpg");
+     background-size: cover;
+     background-position: 20% 20%;
+     margin: 0 auto;
+     width: 100%;
+     padding: 60px 50px;
+     overflow: hidden;
+     height: 800px;
+    }
+
+    h1, h2 {
+    font-family: Arial, Helvetica, sans-serif, cursive;
+    font-weight: 400;
+    color: #656565;
+    }
+    h1 {
+    font-size: 80px;
+    color: #656565;
+    }
+    h2 {
+    font-size: 40px;
+    color: #656565;
+    }
+    h3 {
+    margin: 0;
+    color: #656565;
+    }
+    
+    .box h2 {
+        width: 35%;
+        color: white;
+    }
+    .box p {
+        width: 20%;
+        color: white;
+        padding-top: 5%;
+    }
+    .apply {
+        top: 5%;
+        display: block;
+        width: 200px;
+        color: white;
+        padding: 10px 15px;
+        background-color: rgb(226, 136, 1);
+        border-radius: 50px;
+    }
+    .apply a {
+        display: block;
+        color: white;
+        text-decoration: none;
+    }
+    .apply img {
+        height: 15px;
+        float: right;
+        margin-top: 3px;
+    }
+    .apply:hover {
+        background-color: #ffc533;
+    }
+
+    .content-wrap {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0px 50px;
+        overflow: hidden;
+    }
+
+    .title {
+        padding: 40px 50px 10px;
+    }
+    hr {
+        color: #656565; 
+    }
+
+    .col img {
+        height: 50px;
+    }
+    .col p {
+        color: #656565;
+        width: 75%;
+        margin-bottom: 0px;
+    }
+    .col a {
+        text-decoration: none;
+        color: #FFB901;
+    }
+    .grayspace {
+        width: 75%;
+        height: 15px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background-color: lightgray;
+    }
+    /* Media Queries
+    -------------------------*/
+    @media (min-width: 900px) {
+    .col {
+    width: 33%;
+    float: left;
+    }
